@@ -61,6 +61,7 @@ body {
   top: 330px;
   left: 470px;
  }  
+
 .text2 {
   display: inline-block;
   position: absolute;
@@ -85,7 +86,7 @@ body {
   position: absolute;
   font-size: 40px;
   font-color: white;
-  margin-left: 50px;
+  margin-left: 60px;
   margin-top: 40px;
 }
 
