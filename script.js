@@ -3,6 +3,17 @@ const topRight = document.querySelector('.top-right-button');
 const bottomLeft = document.querySelector('.bottom-left-button');
 const bottomRight = document.querySelector('.bottom-right-button');
 
+const getRandomButton = () => {
+
+ const buttons = [
+  topLeft,
+  topRight,
+  bottomLeft,
+  bottomRight
+ ]
+ return buttons[parseIntMath.random() * buttons.length)];  
+};
+
 const sequence =  [
   bottomRight,
   topLeft,
