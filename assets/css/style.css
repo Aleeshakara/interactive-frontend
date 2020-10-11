@@ -17,6 +17,10 @@ body {
   cursor: pointer;
 }
 
+.button:hover {
+  border: 5px solid yellow;
+}
+
 .top-left-button {
   border-top-left-radius: 100px;
   background-color: red;
