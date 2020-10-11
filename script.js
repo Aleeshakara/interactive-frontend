@@ -12,9 +12,9 @@ const sequence =  [
 
 const flash = button => {
   return new Promise((resolve, reject) => {
-    button.className += 'active';
+    button.className += ' active';
     setTiomeout(() => {
-      button.className = button.className.replace('active', '');
+      button.className = button.className.replace(' active', '');
       resolve();
     }, 1000);
   });
