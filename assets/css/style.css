@@ -60,9 +60,32 @@ body {
   background-color: black;
   top: 330px;
   left: 470px;
+ }  
+.text2 {
+  position: absolute;
+  font-family: 'Original Surfer', cursive;
+  margin-left: 83px;
+  margin-top: 197px;
   font-size: 1.5em;
   font-color: white;
- }  
+}
+
+.text1 {
+  position: absolute;
+  font-family: 'Original Surfer', cursive;
+  margin-left: 19px;
+  margin-top: 142px;
+  font-size: 1.5em;
+  font-color: white;
+}
+
+#title {
+  font-family: 'Original Surfer', cursive;
+  position: absolute;
+  font-size: 40px;
+  margin-left: 35px;
+  margin-top: 40px;
+}
 
 .center:hover {
   border: 7px solid yellow;
