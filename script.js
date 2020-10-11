@@ -1,7 +1,7 @@
-const topLeft = document.querySelector('.top-left-button');
-const topRight = document.querySelector('.top-right-button');
-const bottomLeft = document.querySelector('.bottom-left-button');
-const bottomRight = document.querySelector('.bottom-right-button');
+const topLeft = document.querySelector('.top-left-panel');
+const topRight = document.querySelector('.top-right-panel');
+const bottomLeft = document.querySelector('.bottom-left-panel');
+const bottomRight = document.querySelector('.bottom-right-panel');
 
 const getRandomButton = () => {
   const buttons = [
@@ -10,16 +10,16 @@ const getRandomButton = () => {
   bottomLeft,
   bottomRight
  ];
- return buttons[parseIntMath.random() * buttons.length];  
+ return panels[parseIntMath.random() * panels.length];  
 };
 
-const sequence =  [getRandomButton()];
+const sequence =  [getRandomPanel()];
 
-const flash = button => {
+const flash = panel => {
   return new Promise((resolve, reject) => {
-    button.className += ' active';
+    panel.className += ' active';
     setTimeout(() => {
-      button.className = button.className.replace(' active', '');
+      panel.className = panel.className.replace(' active', '');
       setTimeout(() => {
       }, 250));
       resolve();
@@ -29,14 +29,14 @@ const flash = button => {
 
 let canClick = false;
 
-const buttonClicked = button => {
+const panelClicked = button => {
   if (!canClick) return;
   console.log(button);
 };
 
 const main = async () => {
-  for (const button of sequence) {  
-    await flash(button);
+  for (const panel of sequence) {  
+    await flash(panel);
   }
   canClick = true;
 };
