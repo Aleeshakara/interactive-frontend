@@ -11,22 +11,22 @@ body {
 }
 
 .top-left-button {
-  border-top-left-radius: 100%;
+  border-top-left-radius: 100px;
   background-color: green;
 }  
 
 .top-right-button {
-  border-top-right-radius: 100%;
+  border-top-right-radius: 100px;
   background-color: red; 
 }  
 
 .bottom-left-button {
-  border-bottom-left-radius: 100%;
+  border-bottom-left-radius: 100px;
   background-color: yellow;
 }  
 
 .bottom-right-button {
-  border-bottom-right-radius: 100%;
+  border-bottom-right-radius: 100px;
   background-color: blue;
 }  
 
