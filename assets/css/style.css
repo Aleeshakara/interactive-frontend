@@ -38,9 +38,12 @@ body {
 
 .panel {
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
   border: 5px solid white;
-  border-radius: 100px;
-  background-color: gray;
+  border-radius: 100%;
+  background-color: black;
+  top: 100px;
+  left: 540px;
 }  
