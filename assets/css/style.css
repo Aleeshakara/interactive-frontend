@@ -12,17 +12,17 @@ body {
 
 .top-left-button {
   border-top-left-radius: 100px;
-  background-color: green;
+  background-color: red;
 }  
 
 .top-right-button {
   border-top-right-radius: 100px;
-  background-color: red; 
+  background-color: yellow; 
 }  
 
 .bottom-left-button {
   border-bottom-left-radius: 100px;
-  background-color: yellow;
+  background-color: green;
 }  
 
 .bottom-right-button {
