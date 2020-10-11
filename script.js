@@ -25,6 +25,8 @@ const flash = button => {
     button.className += ' active';
     setTimeout(() => {
       button.className = button.className.replace(' active', '');
+      setTimeout(() => {
+      }, 250))
       resolve();
     }, 1000);
   });
