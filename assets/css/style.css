@@ -20,14 +20,14 @@ body {
   background-color: red; 
 }  
 
-.bottom-right-button {
-  border-bottom-right-radius: 100px;
-  background-color: blue;
-}  
-
 .bottom-left-button {
   border-bottom-left-radius: 100%;
   background-color: yellow;
+}  
+
+.bottom-right-button {
+  border-bottom-right-radius: 100px;
+  background-color: blue;
 }  
 
 .center {
