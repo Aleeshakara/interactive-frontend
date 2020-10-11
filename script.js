@@ -4,7 +4,7 @@ const bottomLeft = document.querySelector('.bottom-left-panel');
 const bottomRight = document.querySelector('.bottom-right-panel');
 
 const getRandomButton = () => {
-  const buttons = [
+  const panels = [
   topLeft,
   topRight,
   bottomLeft,
