@@ -1,3 +1,7 @@
+.h1, .h2 {
+  font-color: white;
+}
+
 body {
   background-color: black;
   text-align: center;
