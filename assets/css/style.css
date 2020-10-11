@@ -17,7 +17,11 @@ body {
   cursor: pointer;
 }
 
-.button:hover + .panel {
+.button:hover {
+  border: 5px solid yellow;
+}
+
+.panel:hover {
   border: 5px solid yellow;
 }
 
