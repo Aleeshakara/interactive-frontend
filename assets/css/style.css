@@ -64,7 +64,7 @@ body {
 .text2 {
   display: inline-block;
   position: absolute;
-  font-family: 'Original Surfer', cursive;
+  font-family: 'Arial', sans-serif;
   margin-left: 83px;
   margin-top: 197px;
   font-size: 1.5em;
@@ -73,7 +73,7 @@ body {
 
 .text1 {
   position: absolute;
-  font-family: 'Original Surfer', cursive;
+  font-family: 'Arial', sans-serif;
   margin-left: 19px;
   margin-top: 142px;
   font-size: 1.5em;
@@ -81,7 +81,7 @@ body {
 }
 
 #title {
-  font-family: 'Original Surfer', cursive;
+  font-family: 'Arial', sans-serif;
   position: absolute;
   font-size: 40px;
   font-color: white;
