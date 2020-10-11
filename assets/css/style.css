@@ -10,8 +10,8 @@ body {
 }
 
 .toggle {
-  margin-left:
-  margin-:left:  
+  margin-left: 20px;
+  margin-:left: 20px;
 
 .panel {
   width: 300px;
@@ -69,9 +69,9 @@ body {
 #switches {
   position: absolute;
   font-family: "Arial", sans-serif;
-  margin-left:
-  margin-top:
-}
+  margin-left: 26px;
+  margin-top: 110px;
+ }
   
  .text2 {
   position: absolute;
@@ -87,10 +87,6 @@ body {
   margin-left: 19px;
   margin-top: 142px;
   color: white;
-}
-
-.text1 span:last-child {
-  padding-left: 70px;
 }
 
 #title {
