@@ -13,7 +13,7 @@ body {
   width: 300px;
   height: 300px;
   display: inline-block;
-  border: 2px solid white;
+  border: 5px solid white;
 }
 
 .top-left-button {
