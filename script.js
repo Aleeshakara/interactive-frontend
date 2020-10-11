@@ -4,21 +4,20 @@ const bottomLeft = document.querySelector('.bottom-left-button');
 const bottomRight = document.querySelector('.bottom-right-button');
 
 const getRandomButton = () => {
-
- const buttons = [
+  const buttons = [
   topLeft,
   topRight,
   bottomLeft,
   bottomRight
- ]
+ ];
  return buttons[parseIntMath.random() * buttons.length];  
 };
 
 const sequence =  [
-  bottomRight,
-  topLeft,
-  bottomLeft,
-  topRight
+  getRandomButton(), 
+  getRandomButton(), 
+  getRandomButton(), 
+  getRandomButton(), 
 ];
 
 const flash = button => {
