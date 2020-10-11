@@ -20,7 +20,7 @@ const flash = button => {
   });
 };
 
-const main = async () => {};
+const main = async () => {
   for (const button of sequence) {  
     await flash(button);
   }
