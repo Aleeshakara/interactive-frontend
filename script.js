@@ -13,12 +13,7 @@ const getRandomButton = () => {
  return buttons[parseIntMath.random() * buttons.length];  
 };
 
-const sequence =  [
-  getRandomButton(), 
-  getRandomButton(), 
-  getRandomButton(), 
-  getRandomButton(), 
-];
+const sequence =  [getRandomButton()];
 
 const flash = button => {
   return new Promise((resolve, reject) => {
@@ -32,10 +27,18 @@ const flash = button => {
   });
 };
 
+let canClick = false;
+
+const buttonClicked = button => {
+  if (!canClick) return;
+  console.log(button);
+};
+
 const main = async () => {
   for (const button of sequence) {  
     await flash(button);
   }
+  canClick = true;
 };
 
 main();
