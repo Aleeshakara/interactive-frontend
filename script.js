@@ -21,7 +21,7 @@ const flash = panel => {
     setTimeout(() => {
       panel.className = panel.className.replace(' active', '');
       setTimeout(() => {
-      }, 250));
+      }, 250);
       resolve();
     }, 1000);
   });
