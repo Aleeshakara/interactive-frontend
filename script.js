@@ -24,7 +24,7 @@ const sequence =  [
 const flash = button => {
   return new Promise((resolve, reject) => {
     button.className += ' active';
-    setTiomeout(() => {
+    setTimeout(() => {
       button.className = button.className.replace(' active', '');
       resolve();
     }, 1000);
