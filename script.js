@@ -11,7 +11,7 @@ const getRandomButton = () => {
   bottomLeft,
   bottomRight
  ]
- return buttons[parseIntMath.random() * buttons.length)];  
+ return buttons[parseIntMath.random() * buttons.length];  
 };
 
 const sequence =  [
