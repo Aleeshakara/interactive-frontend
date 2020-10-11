@@ -3,7 +3,7 @@ h1, h2 {
 }
 
 body {
-  background-color: gray;
+  background-color: black;
   position: center;
   margin-top: 70px;
   font-family: "Arial", sans-serif;
@@ -12,6 +12,7 @@ body {
 .toggle {
   margin-left: 20px;
   margin-:left: 20px;
+}  
 
 .panel {
   width: 300px;
@@ -66,35 +67,7 @@ body {
   border: 7px solid yellow;
 }
   
-#switches {
-  position: absolute;
-  font-family: "Arial", sans-serif;
-  margin-left: 26px;
-  margin-top: 110px;
- }
-  
- .text2 {
-  position: absolute;
-  font-family: 'Original Surfer', cursive;
-  margin-left: 83px;
-  margin-top: 197px;
-  color: white; 
-}
 
-.text1 {
-  position: absolute;
-  font-family: 'Original Surfer', cursive;
-  margin-left: 19px;
-  margin-top: 142px;
-  color: white;
-}
 
-#title {
-  font-family: 'Original Surfer', cursive;
-  position: absolute;
-  font-size: 40px;
-  margin-left: 35px;
-  margin-top: 40px;
-  color: white;
-}
+
  
