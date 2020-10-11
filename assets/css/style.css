@@ -36,6 +36,10 @@ body {
   background-color: blue;
 }  
 
+.active {
+  background-color: white;
+}
+
 .panel {
   display: inline-block;
   position: absolute;
