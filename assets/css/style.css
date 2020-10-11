@@ -78,6 +78,7 @@ body {
   font-family: 'Original Surfer', cursive;
   margin-left: 83px;
   margin-top: 197px;
+  color: white; 
 }
 
 .text1 {
@@ -85,6 +86,7 @@ body {
   font-family: 'Original Surfer', cursive;
   margin-left: 19px;
   margin-top: 142px;
+  color: white;
 }
 
 .text1 span:last-child {
@@ -97,5 +99,6 @@ body {
   font-size: 40px;
   margin-left: 35px;
   margin-top: 40px;
+  color: white;
 }
  
