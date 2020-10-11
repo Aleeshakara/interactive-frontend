@@ -1,12 +1,11 @@
-h1, h2 {
-  color: white;
-}
+
 
 body {
   background-color: black;
-  position: center;
+  text-align: center;
   margin-top: 70px;
   font-family: "Arial", sans-serif;
+  font-color: white;
 }
 
 .toggle {
