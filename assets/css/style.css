@@ -55,7 +55,7 @@ body {
 
 .button {
   border-radius: 50% !important;
-  font-size: 2em;
+  font-size: 1.5em;
   border: 1px solid black;
 } 
 
@@ -75,7 +75,7 @@ body {
   display: inline-block;
   position: absolute;
   font-family: 'Arial', sans-serif;
-  margin-left: 40px;
+  margin-left: 30px;
   margin-top: 130px;
   font-size: 1.5em;
 }
@@ -83,8 +83,8 @@ body {
 .text1 {
   position: absolute;
   font-family: 'Arial', sans-serif;
-  margin-left: 35px;
-  margin-right: 40px;
+  margin-left: 38px;
+  margin-right: 42px;
   margin-top: 20px;
   font-size: 1.5em;
   word-spacing: 100px;
