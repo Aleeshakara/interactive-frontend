@@ -101,7 +101,16 @@ body {
 .center:hover {
   border: 7px solid yellow;
 }
-  
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
 .overlay-text {
    display: none;
    position: fixed;
