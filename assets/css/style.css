@@ -51,12 +51,12 @@ body {
   margin-top: 125px;
   width: 20px;
   height: 20px;
-  border: 1px solid black;
 }  
 
 .button {
   border-radius: 50% !important;
   font-size: 2em;
+  border: 1px solid black;
 } 
 
 .center {
