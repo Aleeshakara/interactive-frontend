@@ -117,8 +117,13 @@ body {
    font-family: 'Arial', sans-serif;
 }
 
+.overlay-text-small {
+  font-size: 3em;
+}
+
 .overlay-text.visible {
   display: flex;
+  flex-directon: column;
   animation: overlay-grow 500ms forwards;
 }
 
