@@ -84,9 +84,10 @@ body {
   position: absolute;
   font-family: 'Arial', sans-serif;
   margin-left: 20px;
+  margin-right: 20px;
   margin-top: 20px;
   font-size: 1.5em;
-  word-spacing: 30px;
+  word-spacing: 40px;
 }
 
 #game {
