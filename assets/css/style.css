@@ -51,6 +51,11 @@ body {
   margin-top: 100px;
 }  
 
+.button {
+  border-radius: 50% !important;
+  font-size: 1.5em;
+} 
+
 .center {
   display: inline-block;
   position: absolute;
