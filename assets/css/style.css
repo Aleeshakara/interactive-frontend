@@ -9,11 +9,6 @@ body {
   font-family: "Arial", sans-serif;
 }
 
-.toggle {
-  margin-left: 20px;
-  margin-top: 70px;
-}  
-
 .panel {
   width: 300px;
   height: 300px;
@@ -49,6 +44,11 @@ body {
 .active {
   background-color: cyan;
 }
+
+.toggle {
+  margin-left: 20px;
+  margin-top: 80px;
+}  
 
 .center {
   display: inline-block;
