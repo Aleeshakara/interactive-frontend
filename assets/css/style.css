@@ -12,6 +12,7 @@ body {
 .game-play {
   text-align: left;
   margin-left: 10px;
+  white-space: pre;
 }  
 
 .panel {
