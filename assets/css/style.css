@@ -9,6 +9,10 @@ body {
   font-family: "Arial", sans-serif;
 }
 
+.game-play {
+  text-align: left;
+}  
+
 .panel {
   width: 300px;
   height: 300px;
