@@ -121,6 +121,7 @@ body {
    z-index: 100;
    color: white;
    font-family: 'Arial', sans-serif;
+   cursor: pointer;
 }
 
 .overlay-text-small {
