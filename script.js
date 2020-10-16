@@ -4,8 +4,8 @@ if(document.readyState === 'loading') {
    ready();
 }
 
-function on() {
-     let overlays = document.getElementsByClassName("overlay-text");
+function ready() {
+     let overlays = Array.from(document.getElementsByClassName("overlay-text"));
      
      overlays.forEach(overlay => {
           overlay.addEventListener('click', () => {
