@@ -5,14 +5,14 @@ if(document.readyState === 'loading') {
 }
 
 function ready() {
-  let overlay = Array.from(document.getElementsByClassName('overlay-text'));
+  let overlays = Array.from(document.getElementsByClassName('overlay-text'));
   
-   overlay.forEach(overlay => {
+   overlays.forEach(overlay => {
       overlay.addEventListener('click', () => {
            overlay.classList.remove('visible');
       });
    });
-}
+}    
                                                             
                                                      
 
