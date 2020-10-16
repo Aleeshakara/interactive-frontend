@@ -3,7 +3,7 @@ h1,h2,h3,p {
 }  
 
 body {
-  background-color: black;
+  background: radial-gradient(#090979, #00d4ff);
   text-align: center;
   margin-top: 70px;
   font-family: "Arial", sans-serif;
