@@ -5,9 +5,9 @@ if(document.readyState === 'loading') {
 }
 
 function ready() {
-  let overlays = Array.from(document.getElementsByClassName('overlay-text'));
+  let overlay = Array.from(document.getElementsByClassName('overlay-text'));
   
-   overlays.forEach(overlay => {
+   overlay.forEach(overlay => {
       overlay.addEventListener('click', () => {
            overlay.classList.remove('visible');
       });
