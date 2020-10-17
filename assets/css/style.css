@@ -14,7 +14,6 @@ body {
   text-align: center;
   margin-top: 70px;
   font-family: "Fredoka One", cursive;
-
 }
 
 .game-play {
@@ -36,22 +35,22 @@ body {
   border: 7px solid yellow;
 }
 
-.top-left-panel {
+#topleft {
   border-top-left-radius: 100px;
   background-color: red;
 }  
 
-.top-right-panel {
+#topright {
   border-top-right-radius: 100px;
   background-color: orange; 
 }  
 
-.bottom-left-panel {
+#bottomleft {
   border-bottom-left-radius: 100px;
   background-color: green;
 }  
 
-.bottom-right-panel {
+#bottomright {
   border-bottom-right-radius: 100px;
   background-color: purple;
 }  
