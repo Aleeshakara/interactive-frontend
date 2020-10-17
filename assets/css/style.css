@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
-h1,h2,h3,p {
+h1,h2,h3 {
+  color: white;
+} 
+
+p {
+  font-family: 'Arial', sans-serif;
   color: white;
 }  
 
@@ -90,7 +95,6 @@ body {
 
 .text1 {
   position: absolute;
-  font-family: 'Arial', sans-serif;
   margin-left: 42px;
   margin-right: 42px;
   margin-top: 20px;
