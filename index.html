@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="assets/images/favicon.png" rel="shortcut icon" type="image/png">
   <link href="assets/css/style.css" rel="stylesheet">
-  <script src="script.js" async></script>
+ 
   <title>QuickClick - Have fun testing your memory</title>
   
   <audio id="panel">
@@ -54,33 +54,30 @@
    <br>
    <br>
    <br>
-    <div>
-      <div class="panel top-left-panel"></div>
-      <div class="panel top-right-panel"></div>
-    </div>  
-    <div>
-      <div class="panel bottom-left-panel"></div>
-      <div class="panel bottom-right-panel"></div>
-    </div>                 
-    <div class="center">
-      <div id="game">QuickClick!</div>
-      <div id="switches">
-        <input type="checkbox" class="checkbox" id="on">
-        <button class="button" id="start">Start</button>
-        <input type="checkbox" class="checkbox" id="hard">
-    </div>
-    <div class="text1">
-      POWER HARD
-    </div>  
-      <div id="turn"></div>
-      <div class="text2">
-        COUNT
-      </div>
-    </div>
+    <div id="outer-square">
+      <div id="topleft"></div>
+      <div id="topright"></div>
+      <div id="bottomleft"></div>
+      <div id="bottomright"></div>
+      <div class="center">
+        <div id="game">QuickClick!</div>
+        <div id="switches">
+          <input type="checkbox" class="toggle" id="on">
+          <button class="button" id="start">Start</button>
+          <input type="checkbox" class="checkbox" id="hard">
+        </div>
+        <div class="text1">
+           <span>POWER</span><span>HARD</span>
+        </div>  
+        <div id="turn"></div>
+        <div class="text2">
+          COUNT
+        </div>
+       </div>
+   </div>
   
-  
+   <script src="script.js"></script>
    
-  
  </body>
  </html>  
   
