@@ -59,10 +59,13 @@ body {
 }  
 
 .center {
+  display: inline-block;
    width: 200px;
    height: 200px;
    border-radius: 100%;
    background-color: gray;
+   top: 135px;
+   left: 200px;
 }
 
 
