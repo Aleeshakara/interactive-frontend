@@ -35,9 +35,8 @@ body {
 .button {
   border-radius: 50% !important;
   font-size: 1.5em;
-
-  display: block;
   background-color: lightgray;
+  margin-left: 30px;
 }
 
 #switches {
