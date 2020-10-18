@@ -43,7 +43,7 @@ hardButton.addEventListener('click, (event) => {
    }
 });
 
-onButton.addEventListener('click', (event) => {
+onButton.addEventListener('click', () => {
    if (onButton.checked == true) {
      on = true;
      turnCounter.innerHTML = "-";
@@ -55,7 +55,7 @@ onButton.addEventListener('click', (event) => {
    }
 });
 
-startButton.addEventListener('click, (event) => {
+startButton.addEventListener('click, () => {
   if (on || win) {
     play();
   }
@@ -102,7 +102,7 @@ function gameTurn() {
 
 function one() {
   if (noise) {
-    let audio = document.getElememtById("panel");
+    let audio = document.getElememtById("panel-beep");
     audio.play();
   }
   noise = true;
@@ -111,7 +111,7 @@ function one() {
     
  function two() {
   if (noise) {
-    let audio = document.getElememtById("panel");
+    let audio = document.getElememtById("");
     audio.play();
   }
   noise = true;
@@ -119,7 +119,7 @@ function one() {
 }     
 function three() {
   if (noise) {
-    let audio = document.getElememtById("panel");
+    let audio = document.getElememtById("panel-beep");
     audio.play();
   }
   noise = true;
@@ -128,7 +128,7 @@ function three() {
 
 function four() {
   if (noise) {
-    let audio = document.getElememtById("panel");
+    let audio = document.getElememtById("panel-beep");
     audio.play();
   }
   noise = true;
