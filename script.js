@@ -34,6 +34,7 @@ const bottomRight = document.querySelector(".bottomright-panel");
 const hardButton = document.querySelector("#hard");
 const onButton = document.querySelector("#on");
 const startButton = document.querySelector("#start");
+const audio1 = new Audio("https://s3.amazonaws.com/freecodecamp/simonSound1.mp3");
 
 hardButton.addEventListener('click', () => {
   if (hardButton.checked == true) {
@@ -102,8 +103,8 @@ if (compTurn) {
 
 function one() {
   if (noise) {
-    let audio = document.getElementById("clip1");
-    audio.play();
+    let audio = ("https://s3.amazonaws.com/freecodecamp/simonSound1.mp3");
+    audio1.play();
   }
   noise = true;
   topLeft.style.backgroundColor = "fuscia";
