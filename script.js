@@ -34,3 +34,29 @@ const bottomRight = document.querySelector(".bottomright-panel");
 const hardButton = document.querySelector("#hard");
 const onButton = document.querySelector("#on");
 const startButton = document.querySelector("#start");
+
+strictButton.addEventListener('click', (event) => {
+  if (hardButton.checked == true) {
+    hard = true;
+  } else {
+    hard = false;
+  }
+});
+
+onButton.addEventListener('click', (event) => {
+  if (onButton.checked == true) {
+    on = true;
+    turnCounter.innerHTML = "-";
+  } else {
+    on = false;
+    turnCounter.innerHTML = "";
+    clearColor();
+    clearInterval(intervalId);
+  }
+});
+
+startButton.addEventListener('click', (event) => {
+  if (on || win) {
+    play();
+  }
+});
