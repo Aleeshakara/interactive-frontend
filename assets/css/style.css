@@ -27,6 +27,10 @@ body {
   margin-right: 20px;
 }
 
+.checkbox {
+  margin-right: 20px;
+}  
+
 .button {
   border-radius: 50% !important;
   font-size: 1.5em;
