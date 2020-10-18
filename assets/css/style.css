@@ -43,9 +43,9 @@ body {
   background-color: red;
   border-top-left-radius: 100px;
   position: absolute; 
-
   border: 5px solid white;
 }
+
 .panel topright-panel {
   background-color: orange;
   border-top-right-radius: 100px;
