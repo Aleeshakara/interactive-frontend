@@ -150,7 +150,7 @@ function flashColor() {
   bottomRight.style.backgroundColor = "cyan";
 }
 
-topLeft.addEventListener('click', (event) => {
+topLeft.addEventListener('click', () => {
   if (on) {
     playerOrder.push(1);
     check();
@@ -189,7 +189,7 @@ bottomLeft.addEventListener('click', () => {
   }
 })
 
-bottomRight.addEventListener('click', (event) => {
+bottomRight.addEventListener('click', () => {
   if (on) {
     playerOrder.push(4);
     check();
