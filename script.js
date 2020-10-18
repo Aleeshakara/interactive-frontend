@@ -32,14 +32,14 @@ const topRight = document.querySelector(".topright-panel");
 const bottomLeft = document.querySelector(".bottomleft-panel");
 const bottomRight = document.querySelector(".bottomright-panel");
 const hardButton = document.querySelector("#hard");
-const powerButton = document.querySelector("#on");
+const onButton = document.querySelector("#on");
 const startButton = document.querySelector("#start");
 
-strictButton.addEventListener('click', () => {
-  if (strictButton.checked == true) {
+hardButton.addEventListener('click', () => {
+  if (hardButton.checked == true) {
     strict = true;
   } else {
-    strict = false;
+    hard = false;
   }
 });
 
@@ -150,7 +150,7 @@ function flashColor() {
   bottomRight.style.backgroundColor = "cyan";
 }
 
-topLeft.addEventListener('click', (event) => {
+topLeft.addEventListener('click', () => {
   if (on) {
     playerOrder.push(1);
     check();
@@ -217,7 +217,7 @@ function check() {
       turnCounter.innerHTML = turn;
       clearColor();
 
-      if (strict) {
+      if (hard) {
         play();
       } else {
         compTurn = true;
