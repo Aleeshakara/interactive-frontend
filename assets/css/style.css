@@ -41,14 +41,14 @@ body {
 
 .text2 {
   position: absolute;
-  margin-left: 105px;
-  margin-top: 197px;
+  margin-left: 103px;
+  margin-top: 200px;
 }
 
 .text1 {
   position: absolute;
   margin-left: 19px;
-  margin-top: 142px;
+  margin-top: 141px;
 }
 
 .text1 span:last-child {
@@ -71,7 +71,7 @@ body {
   height: 30px;
   width: 50px;
   margin-left: 103px;
-  margin-top: 170px;
+  margin-top: 180px;
   text-align: center;
   vertical-align: middle;
   line-height: 30px;
