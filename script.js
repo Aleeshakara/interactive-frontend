@@ -35,7 +35,7 @@ const hardButton = document.querySelector("#hard");
 const onButton = document.querySelector("#on");
 const startButton = document.querySelector("#start");
 
-strictButton.addEventListener('click', (event) => {
+hardButton.addEventListener('click', () => {
   if (hardButton.checked == true) {
     hard = true;
   } else {
@@ -43,7 +43,7 @@ strictButton.addEventListener('click', (event) => {
   }
 });
 
-onButton.addEventListener('click', (event) => {
+onButton.addEventListener('click', () => {
   if (onButton.checked == true) {
     on = true;
     turnCounter.innerHTML = "-";
@@ -55,7 +55,7 @@ onButton.addEventListener('click', (event) => {
   }
 });
 
-startButton.addEventListener('click', (event) => {
+startButton.addEventListener('click', () => {
   if (on || win) {
     play();
   }
@@ -163,7 +163,7 @@ topLeft.addEventListener('click', (event) => {
   }
 })
 
-topRight.addEventListener('click', (event) => {
+topRight.addEventListener('click', () => {
   if (on) {
     playerOrder.push(2);
     check();
@@ -176,7 +176,7 @@ topRight.addEventListener('click', (event) => {
   }
 })
 
-bottomLeft.addEventListener('click', (event) => {
+bottomLeft.addEventListener('click', () => {
   if (on) {
     playerOrder.push(3);
     check();
@@ -206,7 +206,7 @@ function check() {
   if (playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1])
     good = false;
 
-  if (playerOrder.length == 3 && good) {
+  if (playerOrder.length == 25 && good) {
     winGame();
   }
 
