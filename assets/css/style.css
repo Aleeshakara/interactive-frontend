@@ -39,30 +39,30 @@ body {
   border: 7px solid yellow;
 }  
 
-.panel topleft-panel {
+.topleft-panel {
   background-color: red;
   border-top-left-radius: 100px;
   position: absolute; 
   border: 5px solid white;
 }
 
-.panel topright-panel {
+.topright-panel {
   background-color: orange;
   border-top-right-radius: 100px;
   position: absolute; 
   border: 5px solid white;
 }
 
-.panel bottomleft-panel {
+.bottomleft-panel {
   background-color: green;
   border-bottom-left-radius: 100px;
   position: absolute; 
   border: 5px solid white;
 }
 
-.panel bottomright-panel {
+.bottomright-panel {
   background-color: purple;
-  border-bottom-righ t-radius: 100px;
+  border-bottom-right-radius: 100px;
   position: absolute; 
   border: 5px solid white;
 }
