@@ -71,7 +71,7 @@ function play() {
   turn = 1;
   turnCounter.innerHTML = 1;
   good = true;
-  for (var i = 0; i < 20; i++) {
+  for (var i = 0; i < 25; i++) {
     order.push(Math.floor(Math.random() * 4) + 1);
   }
   compTurn = true;
@@ -103,7 +103,7 @@ if (compTurn) {
 
 function one() {
   if (noise) {
-    let audio = ("https://s3.amazonaws.com/freecodecamp/simonSound1.mp3");
+    let audio = ("https://www.myinstants.com/instant/cheered-up-toad-35039/?utm_source=copy&utm_medium=share");
     audio1.play();
   }
   noise = true;
