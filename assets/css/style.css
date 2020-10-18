@@ -23,22 +23,74 @@ body {
   margin-bottom: 0;
 }  
 
-.panel {
+.toggle {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.button {
+  border-radius: 50% !important;
+  font-size: 1.5em;
+  background-color: lightgray;
+}
+
+#switches {
+  position: absolute;
+  margin-left: 26px;
+  margin-top: 110px;
+} 
+
+.text2 {
+  position: absolute;
+  margin-left: 83px;
+  margin-top: 197px;
+}
+
+.text1 {
+  position: absolute;
+  margin-left: 19px;
+  margin-top: 142px;
+}
+
+.text1 span:last-child {
+  padding-left: 70px;
+
+#turn {
+  position: absolute;
+  background: #33000;
+  color: red;
+  font-family: courier;
+  font-size: 20px;
+  height: 30px;
+  width: 50px;
+  margin-left: 90px;
+  margin-top: 170px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+} 
+
+#outer-square: {
+  cursor: pointer;
+}  
+  
+#outer-square:hover {
+  border: 7px solid yellow;
+}  
+  
+ #topleft {
+  position: absolute; 
   width: 300px;
   height: 300px;
   display: inline-block;
-  border: 5px solid white;
-  cursor: pointer;
-}
-
-.panel:hover {
-  border: 7px solid yellow;
-}
-
-#topleft {
   border-top-left-radius: 100px;
   background-color: red;
-}  
+  border: 5px solid white;
+
+}
+
+
+ 
 
 #topright {
   border-top-right-radius: 100px;
@@ -55,9 +107,7 @@ body {
   background-color: purple;
 }  
 
-.active {
-  background-color: cyan;
-}
+
 
 .center {
   display: inline-block;
@@ -79,27 +129,7 @@ body {
   height: 20px;
 }  
     
-.button {
-  border-radius: 50%;
-  font-size: 1.5em;
-  border: 1px solid black;
-} 
 
-.text2 {
-  position: absolute;
-  margin-left: 130px;
-  margin-top: 130px;
-  font-size: 1.5em;
-}
-
-.text1 {
-  position: absolute;
-  margin-left: 42px;
-  margin-right: 42px;
-  margin-top: 20px;
-  font-size: 1.5em;
-  word-spacing: 100px;
-}
 
 #game {
   position: absolute;
