@@ -38,6 +38,8 @@ body {
 
 .topleft-panel {
   background-color: red;
+  width: 200px;
+  height: 200px;
   border-top-left-radius: 100px;
   position: absolute; 
   border: 5px solid white;
@@ -45,6 +47,8 @@ body {
 
 .topright-panel {
   background-color: orange;
+  width: 200px;
+  height: 200px;
   border-top-right-radius: 100px;
   position: absolute; 
   border: 5px solid white;
@@ -52,6 +56,8 @@ body {
 
 .bottomleft-panel {
   background-color: green;
+  width: 200px;
+  height: 200px;
   border-bottom-left-radius: 100px;
   position: absolute; 
   border: 5px solid white;
@@ -59,6 +65,8 @@ body {
 
 .bottomright-panel {
   background-color: purple;
+  width: 200px;
+  height: 200px;
   border-bottom-right-radius: 100px;
   position: absolute; 
   border: 5px solid white;
