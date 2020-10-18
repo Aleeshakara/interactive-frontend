@@ -56,7 +56,7 @@ body {
   border: 5px solid white;
 }
 
-.panel-bottomright {
+.panel bottomright-panel {
   background-color: purple;
   border-bottom-righ t-radius: 100px;
   position: absolute; 
@@ -64,21 +64,7 @@ body {
   border: 5px solid white;
 }
 
-.red {
-  background-color: red;
-}
 
-.orange {
-  background-color: orange;
-}
-
-.green {
-  background-color: green;
-}
-
-.purple {
-  background-color: purple;
-}
 
 .button {
   border-radius: 50% !important;
@@ -138,20 +124,6 @@ body {
 
  
 
-#topright {
-  border-top-right-radius: 100px;
-  background-color: orange; 
-}  
-
-#bottomleft {
-  border-bottom-left-radius: 100px;
-  background-color: green;
-}  
-
-#bottomright {
-  border-bottom-right-radius: 100px;
-  background-color: purple;
-}  
 
 
 
