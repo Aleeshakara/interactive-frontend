@@ -34,7 +34,6 @@ const bottomRight = document.querySelector(".bottomright-panel");
 const hardButton = document.querySelector("#hard");
 const onButton = document.querySelector("#on");
 const startButton = document.querySelector("#start");
-const audio1 = new Audio("https://s3.amazonaws.com/freecodecamp/simonSound1.mp3");
 
 hardButton.addEventListener('click', () => {
   if (hardButton.checked == true) {
@@ -103,8 +102,8 @@ if (compTurn) {
 
 function one() {
   if (noise) {
-    let audio = ("https://www.myinstants.com/instant/cheered-up-toad-35039/?utm_source=copy&utm_medium=share");
-    audio1.play();
+    let audio = document.getElementById("panel-beep")
+    audio.play();
   }
   noise = true;
   topLeft.style.backgroundColor = "fuscia";
