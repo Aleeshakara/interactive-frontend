@@ -102,7 +102,7 @@ function gameTurn() {
 
 function one() {
   if (noise) {
-    let audio = document.getElementById("panel-beep");
+    let audio = document.getElementsByClassName("panel-beep");
     audio1.play();
   }
   noise = true;
