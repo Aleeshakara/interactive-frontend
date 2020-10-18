@@ -33,6 +33,7 @@ body {
 .topleft-panel {
   border-topleft-radius: 200px;
   background-color: red;
+  border: 5px solid white;
 }
 
 .topright-panel {
