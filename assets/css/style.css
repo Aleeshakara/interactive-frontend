@@ -24,9 +24,30 @@ body {
 }  
 
 .panel {
-   }
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
 
+.topleft-panel {
+  border-topleft-radius: 200px;
+  background-color: red;
+}
 
+.topright-panel {
+  border-topright-radius: 200px;
+  background-color: orange;
+}  
+  
+ .bottomleft-panel {
+   border-bottomleft-radius: 200px;
+   background-color: green;
+}
+
+.bottomright-panel { 
+   border-bottomright-radius: 200px;
+   background-color: purple;
+}
   
 
 
