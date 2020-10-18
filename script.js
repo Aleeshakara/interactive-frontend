@@ -37,7 +37,7 @@ const startButton = document.querySelector("#start");
 
 hardButton.addEventListener('click', () => {
   if (hardButton.checked == true) {
-    strict = true;
+    hard = true;
   } else {
     hard = false;
   }
