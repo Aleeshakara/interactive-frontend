@@ -43,7 +43,7 @@ body {
 }  
   
  .bottomleft-panel {
-   border-radius: 50px;
+   border-radius: 0 50px;
    background-color: green;
    border: 5px solid white;
 }
