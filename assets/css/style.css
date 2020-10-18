@@ -35,9 +35,7 @@ body {
 
 #switches {
   position: absolute;
-  display: inline-block;
   margin-left: 26px;
-  padding-right: 26px;
   margin-top: 110px;
 }
 
