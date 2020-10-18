@@ -34,7 +34,12 @@ const bottomRight = document.querySelector(".bottomright-panel");
 const hardButton = document.querySelector("#hard");
 const onButton = document.querySelector("#on");
 const startButton = document.querySelector("#start");
-
+const audio1 = panel Beep("https://www.myinstants.com/instant/cheered-up-toad-35039/?utm_source=copy&utm_medium=share")
+const audio2 = right("https://www.myinstants.com/instant/ding-sound-effect/?utm_source=copy&utm_medium=share")
+const audio3 = wrong("https://www.myinstants.com/instant/windows-xp-error/?utm_source=copy&utm_medium=share")
+const audio4 = winGame("https://www.myinstants.com/instant/mlg-air-horn/?utm_source=copy&utm_medium=share")
+const audio5 = lose("https://www.myinstants.com/instant/sad-trombone/?utm_source=copy&utm_medium=share")   
+     
 hardButton.addEventListener('click', () => {
   if (hardButton.checked == true) {
     strict = true;
@@ -103,7 +108,7 @@ function gameTurn() {
 function one() {
   if (noise) {
     let audio = document.getElementById("panel-beep");
-    audio.play();
+    audio1.play();
   }
   noise = true;
   topLeft.style.backgroundColor = "lightgreen";
@@ -112,7 +117,7 @@ function one() {
 function two() {
   if (noise) {
     let audio = document.getElementById("panel-beep");
-    audio.play();
+    audio1.play();
   }
   noise = true;
   topRight.style.backgroundColor = "tomato";
@@ -121,7 +126,7 @@ function two() {
 function three() {
   if (noise) {
     let audio = document.getElementById("panel-beep");
-    audio.play();
+    audio1.play();
   }
   noise = true;
   bottomLeft.style.backgroundColor = "yellow";
@@ -130,7 +135,7 @@ function three() {
 function four() {
   if (noise) {
     let audio = document.getElementById("panel-beep");
-    audio.play();
+    audio1.play();
   }
   noise = true;
   bottomRight.style.backgroundColor = "lightskyblue";
