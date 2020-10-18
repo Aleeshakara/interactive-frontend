@@ -29,11 +29,37 @@ body {
 }
 
 .panel {
-  background-color: green;
-  border-top-left-radius: 100px;
-  position: absolute; 
   width: 300px;
   height: 300px;
+}
+
+.panel topleft-panel {
+  background-color: red;
+  border-top-left-radius: 100px;
+  position: absolute; 
+  display: inline-block;
+  border: 5px solid white;
+}
+.panel topright-panel {
+  background-color: orange;
+  border-top-right-radius: 100px;
+  position: absolute; 
+  display: inline-block;
+  border: 5px solid white;
+}
+
+.panel bottomleft-panel {
+  background-color: green;
+  border-bottom-left-radius: 100px;
+  position: absolute; 
+  display: inline-block;
+  border: 5px solid white;
+}
+
+.panel-bottomright {
+  background-color: purple;
+  border-bottom-righ t-radius: 100px;
+  position: absolute; 
   display: inline-block;
   border: 5px solid white;
 }
