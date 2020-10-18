@@ -23,10 +23,7 @@ body {
   margin-bottom: 0;
 }  
 
-.toggle {
-  margin-left: 20px;
-  margin-right: 20px;
-}
+
 
 .panel {
   width: 300px;
@@ -83,55 +80,7 @@ body {
   border: 7px solid yellow;
 }
 
-.button {
-  border-radius: 50% !important;
-  font-size: 1.5em;
-  background-color: lightgray;
-}
 
-#switches {
-  position: absolute;
-  margin-left: 26px;
-  margin-top: 110px;
-} 
-
-.text2 {
-  position: absolute;
-  margin-left: 83px;
-  margin-top: 197px;
-}
-
-.text1 {
-  position: absolute;
-  margin-left: 19px;
-  margin-top: 142px;
-}
-
-.text1 span:last-child {
-  padding-left: 70px;
-  
-.checkbox {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 125px;
-  width: 20px;
-  height: 20px;
-}  
-    
-#turn {
-  position: absolute;
-  background: #33000;
-  color: red;
-  font-family: courier;
-  font-size: 20px;
-  height: 30px;
-  width: 50px;
-  margin-left: 90px;
-  margin-top: 170px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 30px;
-} 
 
 
   
@@ -149,12 +98,7 @@ body {
 
 
 
-#game {
-  position: absolute;
-  font-size: 50px;
-  margin-left: 48px;
-  margin-top: 45px;
-}
+
 
 
 
