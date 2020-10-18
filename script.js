@@ -173,7 +173,7 @@ topLeft.addEventListener('click', (event) => {
       }, 300);
     }       
   }
-}     
+})     
 
 bottomLeft.addEventListener('click', (event) => {
   if (on) {
@@ -186,8 +186,9 @@ bottomLeft.addEventListener('click', (event) => {
       }, 300);
     }       
   }
-}     
-  bottomRight.addEventListener('click', (event) => {
+})
+
+bottomRight.addEventListener('click', (event) => {
   if (on) {
     playerOrder.push(4);
     check();
@@ -200,7 +201,7 @@ bottomLeft.addEventListener('click', (event) => {
   }
 })
 
-function check () {
+function check() {
   if (playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1])
     good = false;  
      
