@@ -27,10 +27,10 @@ let on = false;
 let win;
 
 const turnCounter = document.querySelector("#turn");
-const topLeft = document.querySelector("#topleft");
-const topRight = document.querySelector("#topright");
-const bottomLeft = document.querySelector("#bottomleft");
-const bottomRight = document.querySelector("#bottomright");
+const topLeft = document.querySelector(".topleft-panel");
+const topRight = document.querySelector(".topright-panel");
+const bottomLeft = document.querySelector(".bottomleft-panel");
+const bottomRight = document.querySelector(".bottomright-panel");
 const hardButton = document.querySelector("#hard");
 const onButton = document.querySelector("#on");
 const startButton = document.querySelector("#start");
