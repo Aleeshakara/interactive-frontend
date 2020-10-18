@@ -27,10 +27,10 @@ let on = false;
 let win;
 
 const turnCounter = document.querySelector("#turn");
-const topLeft = document.querySelector("#topLeft");
-const topRight = document.querySelector("#topRight");
-const bottomLeft = document.querySelector("#bottomLeft");
-const bottomRight = document.querySelector("#bottomRight");
+const topLeft = document.querySelector("#topleft");
+const topRight = document.querySelector("#topright");
+const bottomLeft = document.querySelector("#bottomleft");
+const bottomRight = document.querySelector("#bottomright");
 const hardButton = document.querySelector("#hard");
 const onButton = document.querySelector("#on");
 const startButton = document.querySelector("#start");
@@ -49,7 +49,7 @@ onButton.addEventListener('click', (event) => {
      turnCounter.innerHTML = "-";
    } else {
      on = false;
-     turnCounter.innerHTML = ""
+     turnCounter.innerHTML = "";
         clearColor();
         clearInterval(intervalId);
    }
@@ -76,7 +76,7 @@ function play () {
   compTurn = true;
      
   intervalId = setInterval(gameTurn, 800);
-};   
+}  
 
 function gameTurn() {
   on == false;
@@ -98,12 +98,12 @@ function gameTurn() {
       flash++;   
     }, 200);
   }
-};
+}
 
 function one() {
   if (noise) {
     let audio = document.getElememtById("panel");
-    audio. play();
+    audio.play();
   }
   noise = true;
      topLeft.style.BackgroundColor = "tomato";
@@ -112,7 +112,7 @@ function one() {
  function two() {
   if (noise) {
     let audio = document.getElememtById("panel");
-    audio. play();
+    audio.play();
   }
   noise = true;
      topRight.style.BackgroundColor = "fire";
@@ -120,7 +120,7 @@ function one() {
 function three() {
   if (noise) {
     let audio = document.getElememtById("panel");
-    audio. play();
+    audio.play();
   }
   noise = true;
      bottomLeft.style.BackgroundColor = "lime";
@@ -129,7 +129,7 @@ function three() {
 function four() {
   if (noise) {
     let audio = document.getElememtById("panel");
-    audio. play();
+    audio.play();
   }
   noise = true;
      bottomRight.style.BackgroundColor = "orchid";
@@ -142,9 +142,9 @@ function clearColor() {
  bottomRight.stylebackgroundColor = "purple";
 }
 
-function FlashColor() {
+function flashColor() {
  topLeft.style.backgroundColor = "tomato";
- topRight.style.backgroundColor = "firee";
+ topRight.style.backgroundColor = "fire";
  bottomLeft.style.backgroundColor = "lime";
  bottomRight.stylebackgroundColor = "orchid";
 }
@@ -160,7 +160,7 @@ topLeft.addEventListener('click', (event) => {
       }, 300);
     }       
   }
-}     
+})     
 
   topRight.addEventListener('click', (event) => {
   if (on) {
