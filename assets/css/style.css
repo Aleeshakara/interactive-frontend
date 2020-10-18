@@ -31,7 +31,7 @@ body {
 }
 
 .topleft-panel {
-  border-topleft-radius: 200px;
+  border-radius: 50px 0;
   background-color: red;
   border: 5px solid white;
 }
