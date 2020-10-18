@@ -50,7 +50,10 @@ body {
    border-bottomright-radius: 200px;
    background-color: purple;
 }
-  
+
+.panel:hover {
+  border: 7px solid yellow;
+}  
 
 
 
