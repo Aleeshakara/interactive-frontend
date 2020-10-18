@@ -123,7 +123,7 @@ function three() {
     audio. play();
   }
   noise = true;
-     bottomLeft.styhreele.BackgroundColor = "lime";
+     bottomLeft.style.BackgroundColor = "lime";
 }   
 
 function four() {
@@ -166,7 +166,7 @@ topLeft.addEventListener('click', (event) => {
   if (on) {
     playerOrder.push(2);
     check();
-    one();
+    two();
     if(!win) {
       setTimeout(() => {
         clearColor();
@@ -179,7 +179,7 @@ bottomLeft.addEventListener('click', (event) => {
   if (on) {
     playerOrder.push(3);
     check();
-    one();
+    three();
     if(!win) {
       setTimeout(() => {
         clearColor();
@@ -191,7 +191,7 @@ bottomLeft.addEventListener('click', (event) => {
   if (on) {
     playerOrder.push(4);
     check();
-    one();
+    four();
     if(!win) {
       setTimeout(() => {
         clearColor();
@@ -201,10 +201,11 @@ bottomLeft.addEventListener('click', (event) => {
 })
 
 function check () {
-  if (playerOrder[playerOrder.length - 1] !== order[playerorder.length - 1])
+  if (playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1])
     good = false;  
+     
    if (playerOrder.length == 20 && good) {
-     youwin();
+     winGame();
    }
      
  if (good == false) {
@@ -222,20 +223,23 @@ function check () {
         playerOrder = [];
         good = true;
         intervalId = setInterval(gameTurn, 800);   
-   }, 800;
+      }
+  }, 800;
+  
   noise = false;
 }
               
-if (turn -- playerOrder.length && good && !win) {
+if (turn == playerOrder.length && good && !win) {
  turn++;
  playerOrder = [];
  compTurn = true;
- flash= 0;
+ flash = 0;
  turnCounter.innerHTML = turn;
  intervalId = setInterval(gameTurn, 800); 
-        
-}     
-function youWin() {
+ } 
+}      
+      
+function winGame() {
   flashColor();
   turnCounter.innerHTML = "WIN!";
   on false;  
