@@ -36,7 +36,7 @@ const onButton = document.querySelector("#on");
 const startButton = document.querySelector("#start");
 
 hardButton.addEventListener('click, (event) => {
-   if (hard.Button.checked == true) {
+   if (hardButton.checked == true) {
      hard = true;
    } else {
      hard = false;
@@ -224,7 +224,7 @@ function check () {
         good = true;
         intervalId = setInterval(gameTurn, 800);   
       }
-  }, 800;
+  }, 800);
   
   noise = false;
 }
@@ -242,7 +242,7 @@ if (turn == playerOrder.length && good && !win) {
 function winGame() {
   flashColor();
   turnCounter.innerHTML = "WIN!";
-  on false;  
+  on = false;  
   win = true;
 }     
           
