@@ -106,7 +106,7 @@ function one() {
     audio.play();
   }
   noise = true;
-  topLeft.style.backgroundColor = "lightgreen";
+  topLeft.style.backgroundColor = "fuscia";
 }
 
 function two() {
@@ -115,7 +115,7 @@ function two() {
     audio.play();
   }
   noise = true;
-  topRight.style.backgroundColor = "tomato";
+  topRight.style.backgroundColor = "fuscia";
 }
 
 function three() {
@@ -124,7 +124,7 @@ function three() {
     audio.play();
   }
   noise = true;
-  bottomLeft.style.backgroundColor = "yellow";
+  bottomLeft.style.backgroundColor = "fuscia";
 }
 
 function four() {
@@ -133,7 +133,7 @@ function four() {
     audio.play();
   }
   noise = true;
-  bottomRight.style.backgroundColor = "lightskyblue";
+  bottomRight.style.backgroundColor = "fuscia";
 }
 
 function clearColor() {
