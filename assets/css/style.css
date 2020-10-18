@@ -31,7 +31,7 @@ body {
 }
 
 .topleft-panel {
-  border-topleft-radius: 100px;
+  border-topleft-radius: 200px;
   background-color: red;
   border: 5px solid white;
 }
@@ -39,16 +39,19 @@ body {
 .topright-panel {
   border-topright-radius: 200px;
   background-color: orange;
+  border: 5px solid white;
 }  
   
  .bottomleft-panel {
-   border-bottomleft-radius: 200px;
+   border-radius: 50px;
    background-color: green;
+   border: 5px solid white;
 }
 
 .bottomright-panel { 
    border-bottomright-radius: 200px;
    background-color: purple;
+   border: 5px solid white;
 }
 
 .panel:hover {
