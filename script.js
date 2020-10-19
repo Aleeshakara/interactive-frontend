@@ -137,10 +137,10 @@ function four() {
 }
 
 function clearColor() {
-  topLeft.style.backgroundColor = "darkgreen";
-  topRight.style.backgroundColor = "darkred";
-  bottomLeft.style.backgroundColor = "goldenrod";
-  bottomRight.style.backgroundColor = "darkblue";
+  topLeft.style.backgroundColor = "red";
+  topRight.style.backgroundColor = "orange";
+  bottomLeft.style.backgroundColor = "green";
+  bottomRight.style.backgroundColor = "purple";
 }
 
 function flashColor() {
