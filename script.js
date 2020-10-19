@@ -25,7 +25,7 @@ let hard = false;
 let noise = true;
 let on = false;
 let win;
-
+let audio = new Audio("panel-beep" src="https://www.myinstants.com/instant/cheered-up-toad-35039/?utm_source=copy&utm_medium=share")
 const turnCounter = document.querySelector("#turn");
 const topLeft = document.querySelector(".topleft-panel");
 const topRight = document.querySelector(".topright-panel");
