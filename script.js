@@ -133,7 +133,7 @@ function four() {
     audio.play();
   }
   noise = true;
-  bottomRight.style.backgroundColor = "LightCyan";
+  bottomRight.style.backgroundColor = "fuchsia";
 }
 
 function clearColor() {
