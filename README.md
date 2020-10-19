@@ -165,7 +165,7 @@ GitHub Pages was used to deploy the website.
 
 * Text
 
-Most of the text has been by me, with permission. I wrote the game rules and made small changes throughout.
+Most of the text written has been used, with permission. I wrote the game rules and made small changes throughout.
 
 * Media
 
