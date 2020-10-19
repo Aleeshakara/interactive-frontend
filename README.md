@@ -120,7 +120,7 @@ I have tried my website on Google Chrome and Safari. Both appear to work as expe
 
 Devices tested are Samsung Galaxy S20+, Samsung Galaxy S6, iPod Touch, MacBook Air, Samsung Galaxy Tab A, Huawei P30 Lite and iPad 10.2. Not yet responsive for smaller screens.
 
-Please see [here]() for Usability Testing
+Please see [here](https://github.com/Aleeshakara/interactive-frontend/blob/main/assets/QuickClick!-%20Usability%20Testing.pdf) for Usability Testing
 
 
 ## Deployment
