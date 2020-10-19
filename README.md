@@ -141,8 +141,7 @@ GitHub Pages was used to deploy the website.
 10. In "GitHub" go to "Settings"                                                       
 11. Scroll down to the "GitHub Pages" section
 12. Click "Master Branch"
-13. Your site is published at https://username.github.io/
-https://aleeshakara
+13. Your site is published at  https://aleeshakara.github.io/interactive-frontend/
 
 #### Clone Respository
 
@@ -150,7 +149,7 @@ https://aleeshakara
 2.	Click "Code" (green)  button
 3.  Click "Clone URL" (Copy address- https://github.com/username/repo_name.git) or "Download ZIP" (saves files to device)
 
-https://github.com/Aleeshakara/
+ https://aleeshakara.github.io/interactive-frontend/
 
 
 ## Credits
@@ -158,7 +157,7 @@ https://github.com/Aleeshakara/
 * [w3schools](https://www.w3schools.com/)- Examples, inspiration
 * [Code Instiute](https://codeinstitute.net/)- Tutorials
 * [Favicon](https://favicon.io/)- Personalised webpage icon
-* [feeCodeCamp](https://www.freecodecamp.org/)- Tutorial
+* [feeCodeCamp](https://www.freecodecamp.org/)- Tutorial, sounds, HTML, CSS, Javascript codes
 * [PortExe](https://portexe.com/)- Tutorial, overlay HTML and Javascript codes
  
 
