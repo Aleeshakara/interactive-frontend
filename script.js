@@ -1,8 +1,12 @@
+/*---- Loading */
+
 if(document.readyState === 'loading') {
      document.addEventListener('DOMContentLoaded', ready());
 } else {
    ready();
 }
+
+/* ------- Overlay */
 
 function ready() {
      let overlays = Array.from(document.getElementsByClassName("overlay-text"));
@@ -13,6 +17,8 @@ function ready() {
           });
      });
 } 
+
+/* Variables */
 
 let order = [];
 let playerOrder = [];
@@ -35,6 +41,8 @@ const hardButton = document.querySelector("#hard");
 const onButton = document.querySelector("#on");
 const startButton = document.querySelector("#start");
 
+/* -------- Checkboxes*/
+
 hardButton.addEventListener('click', () => {
   if (hardButton.checked == true) {
     hard = true;
@@ -54,6 +62,8 @@ onButton.addEventListener('click', () => {
     clearInterval(intervalId);
   }
 });
+
+/* ----- Start game*/
 
 startButton.addEventListener('click', (event) => {
   if (on || win) {
@@ -78,6 +88,8 @@ function play() {
   intervalId = setInterval(gameTurn, 800);
 }
 
+/* ---- Player*/
+
 function gameTurn() {
   on = false;
 
@@ -88,6 +100,8 @@ function gameTurn() {
     on = true;
   }
 
+/* ----- Computer */
+     
 if (compTurn) {
     clearColor();
     setTimeout(() => {
@@ -99,6 +113,8 @@ if (compTurn) {
     }, 200);
   }
 }
+
+/* ----- Game functions */
 
 function one() {
   if (noise) {
@@ -149,6 +165,8 @@ function flashColor() {
   bottomLeft.style.backgroundColor = "Chartreuse";
   bottomRight.style.backgroundColor = "Fuchsia";
 }
+
+/* ---- Panels */
 
 topLeft.addEventListener('click', () => {
   if (on) {
@@ -202,6 +220,8 @@ bottomRight.addEventListener('click', () => {
   }
 })
 
+/* ------ Feedback */
+
 function check() {
   if (playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1])
     good = false;
@@ -217,7 +237,9 @@ function check() {
       turnCounter.innerHTML = turn;
       clearColor();
 
-      if (strict) {
+ /* ---- Hard mode */
+         
+      if (hard) {
         play();
       } else {
         compTurn = true;
@@ -241,6 +263,8 @@ function check() {
   }
 
 }
+
+/* ----- Game won*/
 
 function winGame() {
   flashColor();
