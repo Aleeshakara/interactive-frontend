@@ -106,7 +106,7 @@ function one() {
     audio.play();
   }
   noise = true;
-  topLeft.style.backgroundColor = "fuchsia";
+  topLeft.style.backgroundColor = "LightCyan";
 }
 
 function two() {
@@ -115,7 +115,7 @@ function two() {
     audio.play();
   }
   noise = true;
-  topRight.style.backgroundColor = "fuchsia";
+  topRight.style.backgroundColor = "LightCyan";
 }
 
 function three() {
@@ -124,7 +124,7 @@ function three() {
     audio.play();
   }
   noise = true;
-  bottomLeft.style.backgroundColor = "fuchsia";
+  bottomLeft.style.backgroundColor = "LightCyan";
 }
 
 function four() {
@@ -133,7 +133,7 @@ function four() {
     audio.play();
   }
   noise = true;
-  bottomRight.style.backgroundColor = "fuchsia";
+  bottomRight.style.backgroundColor = "LightCyan";
 }
 
 function clearColor() {
@@ -144,10 +144,10 @@ function clearColor() {
 }
 
 function flashColor() {
-  topLeft.style.backgroundColor = "cyan";
-  topRight.style.backgroundColor = "cyan";
-  bottomLeft.style.backgroundColor = "cyan";
-  bottomRight.style.backgroundColor = "cyan";
+  topLeft.style.backgroundColor = "LightCyan";
+  topRight.style.backgroundColor = "LightCyan";
+  bottomLeft.style.backgroundColor = "LightCyan";
+  bottomRight.style.backgroundColor = "LightCyan";
 }
 
 topLeft.addEventListener('click', () => {
