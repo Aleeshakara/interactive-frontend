@@ -115,7 +115,7 @@ function two() {
     audio.play();
   }
   noise = true;
-  topRight.style.backgroundColor = "fuchsia";
+  topRight.style.backgroundColor = "LightCyan";
 }
 
 function three() {
@@ -124,7 +124,7 @@ function three() {
     audio.play();
   }
   noise = true;
-  bottomLeft.style.backgroundColor = "fuchsia";
+  bottomLeft.style.backgroundColor = "LightCyan";
 }
 
 function four() {
@@ -133,7 +133,7 @@ function four() {
     audio.play();
   }
   noise = true;
-  bottomRight.style.backgroundColor = "fuchsia";
+  bottomRight.style.backgroundColor = "LightCyan";
 }
 
 function clearColor() {
