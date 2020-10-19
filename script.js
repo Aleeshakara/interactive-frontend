@@ -137,17 +137,17 @@ function four() {
 }
 
 function clearColor() {
-  topLeft.style.backgroundColor = "red";
-  topRight.style.backgroundColor = "orange";
-  bottomLeft.style.backgroundColor = "green";
-  bottomRight.style.backgroundColor = "purple";
+  topLeft.style.backgroundColor = "Red";
+  topRight.style.backgroundColor = "Orange";
+  bottomLeft.style.backgroundColor = "Green";
+  bottomRight.style.backgroundColor = "Purple";
 }
 
 function flashColor() {
-  topLeft.style.backgroundColor = "lightgreen";
-  topRight.style.backgroundColor = "tomato";
-  bottomLeft.style.backgroundColor = "yellow";
-  bottomRight.style.backgroundColor = "lightskyblue";
+  topLeft.style.backgroundColor = "LightCoral";
+  topRight.style.backgroundColor = "OrangeRed";
+  bottomLeft.style.backgroundColor = "Chartreuse";
+  bottomRight.style.backgroundColor = "Fuchsia";
 }
 
 topLeft.addEventListener('click', (event) => {
