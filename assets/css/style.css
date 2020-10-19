@@ -8,6 +8,7 @@ p {
   font-family: 'Arial', sans-serif;
 }  
 
+/* ----------------------- Body */
 body {
   background: radial-gradient(#090979, #00d4ff);
   text-align: center;
@@ -15,6 +16,7 @@ body {
   font-family: "Fredoka One", cursive;
 }
 
+/* -------------------------Game rules */
 .game-play {
   text-align: left;
   margin-left: 50px;
@@ -22,6 +24,7 @@ body {
   margin-bottom: 0;
 }  
 
+/* --------------------------- Centre control */
 .toggle {
   margin-left: 20px;
   margin-right: 20px;
@@ -83,6 +86,28 @@ body {
   line-height: 30px;
 }
 
+.center {
+   display: inline-block;
+   position: absolute;
+   width: 300px;
+   height: 300px;
+   border-radius: 100%;
+   background-color: gray;
+   border: 5px solid white;
+   top: 550px;
+   left: 550px;
+   box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   cursor: pointer;
+}
+
+.center:hover {
+   border: 7px solid yellow;
+}
+  
+/* ----------------------- Game panels */
+
 .panel {
   width: 300px;
   height: 300px;
@@ -130,44 +155,8 @@ body {
   border: 7px solid yellow;
 }  
 
-.center {
-   display: inline-block;
-   position: absolute;
-   width: 300px;
-   height: 300px;
-   border-radius: 100%;
-   background-color: gray;
-   border: 5px solid white;
-   top: 550px;
-   left: 550px;
-   box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   -webkit-box-sizing: border-box;
-   cursor: pointer;
-}
-
-.center:hover {
-   border: 7px solid yellow;
-}
+/* -------- Overlay */
   
-
-  
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
 .overlay-text {
    display: none;
    position: fixed;
