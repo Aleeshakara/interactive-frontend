@@ -111,7 +111,7 @@ function one() {
 
 function two() {
   if (noise) {
-    let audio = document.getElementById("clip2");
+    let audio = document.getElementById("panel-beep");
     audio.play();
   }
   noise = true;
