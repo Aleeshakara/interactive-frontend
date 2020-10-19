@@ -21,7 +21,7 @@ let turn;
 let good;
 let compTurn;
 let intervalId;
-let strict = false;
+let hard = false;
 let noise = true;
 let on = false;
 let win;
@@ -70,7 +70,7 @@ function play() {
   turn = 1;
   turnCounter.innerHTML = 1;
   good = true;
-  for (var i = 0; i < 20; i++) {
+  for (var i = 0; i < 25; i++) {
     order.push(Math.floor(Math.random() * 4) + 1);
   }
   compTurn = true;
@@ -150,7 +150,7 @@ function flashColor() {
   bottomRight.style.backgroundColor = "Fuchsia";
 }
 
-topLeft.addEventListener('click', (event) => {
+topLeft.addEventListener('click', () => {
   if (on) {
     playerOrder.push(1);
     check();
@@ -163,7 +163,7 @@ topLeft.addEventListener('click', (event) => {
   }
 })
 
-topRight.addEventListener('click', (event) => {
+topRight.addEventListener('click', () => {
   if (on) {
     playerOrder.push(2);
     check();
@@ -176,7 +176,7 @@ topRight.addEventListener('click', (event) => {
   }
 })
 
-bottomLeft.addEventListener('click', (event) => {
+bottomLeft.addEventListener('click', () => {
   if (on) {
     playerOrder.push(3);
     check();
@@ -189,7 +189,7 @@ bottomLeft.addEventListener('click', (event) => {
   }
 })
 
-bottomRight.addEventListener('click', (event) => {
+bottomRight.addEventListener('click', () => {
   if (on) {
     playerOrder.push(4);
     check();
@@ -206,7 +206,7 @@ function check() {
   if (playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1])
     good = false;
 
-  if (playerOrder.length == 3 && good) {
+  if (playerOrder.length == 25 && good) {
     winGame();
   }
 
@@ -247,6 +247,8 @@ function winGame() {
   turnCounter.innerHTML = "WIN!";
   on = false;
   win = true;
+     let audio = document.getElementById("clip4");
+    audio.play();
 }
 
 
