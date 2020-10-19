@@ -65,7 +65,7 @@ onButton.addEventListener('click', () => {
 
 /* ----- Start game*/
 
-startButton.addEventListener('click', (event) => {
+startButton.addEventListener('click', () => {
   if (on || win) {
     play();
   }
@@ -271,11 +271,4 @@ function winGame() {
   turnCounter.innerHTML = "WIN!";
   on = false;
   win = true;
-     let audio = document.getElementById("clip4");
-    audio.play();
 }
-
-
-
-
-     
