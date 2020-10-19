@@ -106,7 +106,7 @@ function one() {
     audio.play();
   }
   noise = true;
-  topLeft.style.backgroundColor = "fuscia";
+  topLeft.style.backgroundColor = "fuchsia";
 }
 
 function two() {
